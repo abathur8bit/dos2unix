@@ -20,6 +20,7 @@
 
 #include <iostream>
 #include <stdio.h>
+#include <string.h>
 
 void dump(int ch);
 char* readFile(const char* filename);
