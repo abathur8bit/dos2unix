@@ -1,7 +1,7 @@
 Utility for Windows to read text files with CRLF and strip the CR character.
-I know there are a bunch out there, but they didn't seem to work. 
-
-For example, **tr** created 2 byte output for each character, and include a BOM.
+I know there are a bunch out there, but they didn't seem to work for me. 
+For example, **tr** created 2 byte output for each character, and include a BOM. 
+So here is my very simple version. 
 
 There are utils for unix, but this had to be run on Windows.
 
