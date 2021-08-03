@@ -123,7 +123,9 @@ int main(int argc,char* argv[]) {
     } else {
         printf("dos2unix by Lee Patterson http://axorion.com\n");
         printf("Strips CR (0x0D) from text files.\n");
-        printf("Usage: dos2unix [-v] source destination\n");
+        printf("If you don't provide a destination file, the source will be overwritten.\n");
+        printf("\n");
+        printf("Usage: dos2unix [-v] source [destination]\n");
         printf(" -v = verbose\n");
     }
     return 0;
